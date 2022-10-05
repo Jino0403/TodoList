@@ -8,14 +8,14 @@ const TodoList = () => {
   const [todos, setTodos] = useState([
     {
       id: 1,
-      title: "리액트 공부하기",
-      body: "리액트 기초를 공부해봅시다.",
+      title: "나만의 TodoList 만들기",
+      body: "어렵네요.. 하지만 만들어봅시다",
       isDone: false,
     },
     {
       id: 2,
-      title: "리액트 공부하기",
-      body: "리액트 기초를 공부해봅시다.",
+      title: "나만의 TodoList 만들기",
+      body: "어렵지만 해냈네요!",
       isDone: true,
     },
   ]);
